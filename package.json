@@ -1,0 +1,16 @@
+{
+  "name": "opencart_playwright",
+  "version": "1.0.0",
+  "description": "Opencart playwright automation framework",
+  "license": "ISC",
+  "author": "Akshay Kudale",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test:qa": "npx playwright test --config=playwright.config.qa.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
