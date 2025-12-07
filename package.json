@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test:qa": "npx playwright test --config=playwright.config.qa.ts"
+    "test:qa": "npx playwright test --config=playwright.config.qa.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
