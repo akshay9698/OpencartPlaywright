@@ -36,6 +36,9 @@ on:
           - Firefox
           - WebKit
 
+permissions:
+    contents: write
+
 env:
   NODE_VERSION: '20'
 
