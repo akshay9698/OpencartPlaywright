@@ -191,9 +191,11 @@ jobs:
           echo "🔹 Browser: $BROWSER"
           echo ""
           echo "🏠 Main Dashboard:"
-          echo "   https://github.com/akshay9698.github.io/OpencartPlaywright/"
+          echo "   https://akshay9698.github.io/OpencartPlaywright/"  
           echo ""
           echo "📊 ${ENV^^} Reports:"
-          echo "   Playwright: https://github.com/akshay9698.github.io/OpencartPlaywright/${ENV}/playwright-report/index.html"
+          echo "   Playwright: https://akshay9698.github.io/OpencartPlaywright/qa/playwright-report/index.html"
           echo ""
           echo "============================================"
+
+          
